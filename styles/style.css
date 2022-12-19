@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+body {
+    background-image: url(/assets/home-bg.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+#logo {
+    height: 60px;
+    width: 150px;
+
+}
+
+#exampleModalLabel {
+  color: black;
+}
+
+th {
+  color: aliceblue;
+}
+
+table {
+  justify-content: space-around;
+  color: wheat;
+  /* margin-left: 285px; */
+  border: 20px;
+  column-gap: 20px;
+  border-collapse: separate;
+  border-spacing: 0px;
+  
+}
+
+tbody {
+  color: aliceblue;
+}
+
+card
+body {
+    background-color: #100e17;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .container {
+    position: absolute;
+    height: 0px;
+    width: 0px;
+    top: 60px;
+    display: flex;
+  } 
+  .card {
+    display: flex;
+    height: 280px;
+    width: 200px;
+    background-color: #17141d;
+    border-radius: 10px;
+    box-shadow: -1rem 0 3rem #000;
+    transition: 0.4s ease-out;
+    position: relative;
+    left: 0px;
+  } */
+  
+   .card:not(:first-child) {
+      margin-left: -50px;
+  }
+  
+   .card:hover {
+    transform: translateY(-20px);
+    transition: 0.4s ease-out;
+  }
+  
+  .card:hover ~ .card {
+    position: relative;
+    left: 50px;
+    transition: 0.4s ease-out;
+  }
+
+  #savebutton:hover {
+color: blueviolet;
+background-color: black;
+  }
+
+.home {
+    padding-left: 540px;
+    padding-top: 100px;
+    border-radius: 100px;
+  }
+
+  #checkoutbody {
+    background-image: url(/assets/checkout-bg.jpg);
+  }
+
+  footer {
+    color: wheat;
+    padding-left: 100px;
+    background-color: rgb(25, 3, 3);
+    height: 59px;
+    padding: 20px;
+  }

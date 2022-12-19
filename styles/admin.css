@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+body {
+    background-image: url(/assets/admin-bg.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    
+}
+
+.nav-link {
+    font-weight: 300px;
+}
+
+h2 {
+    color: aliceblue;
+    padding-left: 650px;
+}
+
+#logo {
+    height: 60px;
+    width: 150px;
+
+}
+
+th {
+    color: aliceblue;
+}
+
+table {
+    justify-content: space-around;
+    color: wheat;
+    border: 20px;
+    column-gap: 20px;
+    border-collapse: separate;
+    border-spacing: 0px;
+    
+}
+
+table :hover {
+    color: aliceblue;
+}
+tbody {
+    color: aliceblue;
+}
+
+#delete {
+    background-color: red;
+    color: white;
+    padding: 6px;
+    border-radius: 20px;
+}
+
+#delete:hover {
+    background-color: #000000;
+}
+
+#edit {
+    color: white;
+    background-color: rgb(137, 118, 209);
+    padding: 6px;
+    border-radius: 20px;
+}
+
+#edit:hover {
+    color: #000000;
+    background-color: white;
+}
+
+#addmodal {
+    color: aliceblue;
+    background-color: rgb(1, 87, 1);
+    float: right;
+    margin-right: 115px;
+}
+
+footer {
+    color: wheat;
+    padding-left: 100px;
+    background-color: rgb(25, 3, 3);
+    height: 59px;
+    padding: 20px;
+  }
