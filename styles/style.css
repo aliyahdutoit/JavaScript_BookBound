@@ -132,3 +132,10 @@ tbody {
   background-color: rgb(5, 74, 5);
   color: white;
 }
+
+.total {
+  font-weight: bolder;
+  font-size: larger;
+  float: right;
+  padding-right: 70px;
+}
