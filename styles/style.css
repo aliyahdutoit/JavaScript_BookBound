@@ -85,7 +85,9 @@ h2 {
 }
 
 /* Product Page */
-
+h1 {
+  max-width: 100%;
+}
 .card{
   flex-direction: unset;
   background-color: beige;
@@ -94,10 +96,14 @@ h2 {
 }
 
 #image {
-  min-height: fit-content;
+  max-width: 260px;
+  max-height: 200px;
+  padding-left: 100px;
 }
 
-
+#container {
+  padding-left: 120px;
+}
 /* Checkout Page */
 #checkoutbody {
   background-image: url(/assets//background.jpg);

@@ -47,7 +47,7 @@ JSON.parse(localStorage.getItem('books')) : [
                price: 19,
                quote: "I am made of memories.",
                genre: "Greek Mythology",
-               image: "https://i.postimg.cc/xCmTfJbj/TSOA.jpg"
+               image: "https://i.postimg.cc/d17Lmrfs/song-of-achilles.jpg"
            },
             {
                id: 6,
