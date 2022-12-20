@@ -128,7 +128,7 @@ function displayBooks() {
           <td>${aliyah.genre}</td>
           <td>${aliyah.price}</td>
           <td><!-- Button trigger modal -->
-          <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          <button type="button" class="btn" id="addtocheckout" data-bs-toggle="modal" data-bs-target="#exampleModal">
             add to checkout
           </button>
           
@@ -167,31 +167,3 @@ function displayBooks() {
   });
 } 
 displayBooks();
-
-//add books to checkout
-// let checkout = JSON.parse(localStorage.getItem ('checkout'));
-
-// function displayCheckout(id) {
-//   console.log(id)
-//   checkout.push(books[id-1])
-//   console.log(checkout)
-//   localStorage.setItem('checkout', JSON.stringify(checkout))
-// }
-
-
-let xp = JSON.parse(localStorage.getItem('checkout'));
-let y = document.querySelector('tbody')
-
-xp.forEach(element => {
-  console.log(element);
-  y.innerHTML +=
-  `
-  <tr>
-  <td>${element.id}</td>
-  <td>${element.name}</td>
-  <td>${element.author}</td>
-  <td>${element.price}</td>
-  <td>${element.quantity}</td>
- 
-  `
-})

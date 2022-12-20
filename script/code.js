@@ -153,23 +153,23 @@ localStorage.setItem('books',JSON.stringify(books))
 let x = JSON.parse(localStorage.getItem('books'));
 console.log(x);
 
-x.forEach(aliyah => {
-    console.log('Title: ' + aliyah.title)
+x.forEach(novel => {
+    console.log('Title: ' + novel.title)
     document.querySelector(".card").innerHTML += 
     `
     <div class="card mb-3">
    
       <div class="col-md">
-        <img src="${aliyah.image}" class="img-fluid rounded-start h-100" alt="..." id="image">
+        <img src="${novel.image}" class="img-fluid rounded-start h-100" alt="..." id="image">
       </div>
       <div class="col-md">
         <div class="card-body">
-          <h5 class="card-title">${aliyah.title}</h5>
-          <p class="card-text"><small class="text-muted">${aliyah.genre}</small></p>
-          <p class="card-text">£${aliyah.price}</p>
-          <p class="card-text">"${aliyah.quote}"</p>
-          <p class="card-text"><small class="text-muted">by ${aliyah.author}</small>
-          <button type="button" id="" onclick="addToCart(${aliyah.id})">add to checkout</button></p>
+          <h5 class="card-title">${novel.title}</h5>
+          <p class="card-text"><small class="text-muted">${novel.genre}</small></p>
+          <p class="card-text">£${novel.price}</p>
+          <p class="card-text">"${novel.quote}"</p>
+          <p class="card-text"><small class="text-muted">by ${novel.author}</small>
+          <button type="button" id="addtocart" onclick="addToCart(${novel.id})">add to checkout</button></p>
          
         </div>
       </div>
@@ -177,16 +177,6 @@ x.forEach(aliyah => {
     </div>
             
     `
-    console.log(aliyah);
+    console.log(novel);
 });
 
-
-//add books to checkout
-// let checkout = JSON.parse(localStorage.getItem ('checkout'));
-
-// function displayCheckout(id) {
-//   console.log(id)
-//   checkout.push(books[id-1])
-//   console.log(checkout)
-//   localStorage.setItem('checkout', JSON.stringify(checkout))
-// }

@@ -21,12 +21,15 @@ body {
   background-color:  rgb(122, 72, 72);
 }
 #navbar {
-  font-weight: bolder;
+  font-weight: bold;
   font-size: larger;
-  color: black;
+  color: white;
   background-color:  rgb(122, 72, 72);
 }
 
+h1 {
+  color: black;
+}
 footer {
   color: wheat;
   padding-left: 100px;
@@ -47,11 +50,6 @@ footer {
 
 /* Admin Page */
 
-
-h2 {
-  color: black;
-  padding-left: 650px;
-}
 #delete, #edit {
   background-color: rgb(122, 72, 72);
   color: white;
@@ -86,12 +84,25 @@ h1 {
 
 #image {
   max-width: 260px;
-  max-height: 200px;
   padding-left: 100px;
 }
 
 #container {
   padding-left: 120px;
+}
+#addtocart {
+  float: right;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+#sortbutton, #filterbutton {
+  float: right;
+  background-color: rgb(5, 74, 5);
+  color: white;
+  padding: 15px;
+  margin-right: 10px;
 }
 
 /* Checkout Page */
@@ -117,3 +128,7 @@ tbody {
   color: black;
 }
 
+#addtocheckout {
+  background-color: rgb(5, 74, 5);
+  color: white;
+}

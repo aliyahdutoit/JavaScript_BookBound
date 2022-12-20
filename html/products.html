@@ -23,8 +23,7 @@
     <nav class="navbar navbar-expand-lg bg-opacity-25" id="navbar">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"
-          ><img id="logo" src="/assets/BB-logo-copy.png"
-        /></a>
+          ><img id="logo" src="/assets/BB-logo-copy.png"/></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -37,7 +36,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav justify-content-end me-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link" id="navbar" aria-current="page" href="/index.html"
                 >Home</a
@@ -65,6 +64,36 @@
 <main>
   <!-- heading -->
       <h1 class="text-center row justify-content-center ">Pick your next adventure!</h1>
+
+<!-- Sorting and Filtering Buttons -->
+
+<div class="dropdown">
+  <button class="btn dropdown-toggle" id="sortbutton" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Sort
+  </button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#">A-Z</a></li>
+    <li><a class="dropdown-item" href="#">Genre</a></li>
+    <li><a class="dropdown-item" href="#">Price</a></li>
+  </ul>
+</div>
+
+<div class="dropdown">
+  <button class="btn dropdown-toggle" id="filterbutton" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Filter
+  </button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#">Romance</a></li>
+    <li><a class="dropdown-item" href="#">Thriller</a></li>
+    <li><a class="dropdown-item" href="#">Dark Academia</a></li>
+    <li><a class="dropdown-item" href="#">Greek Mythology</a></li>
+    <li><a class="dropdown-item" href="#">Classic</a></li>
+    <li><a class="dropdown-item" href="#">Mystery</a></li>
+    <li><a class="dropdown-item" href="#">Dystopian</a></li>
+    <li><a class="dropdown-item" href="#">Fantasy</a></li>
+    <li><a class="dropdown-item" href="#">Fiction</a></li>
+  </ul>
+</div>
 
 
 <!-- Card -->
