@@ -5,7 +5,7 @@
     font-family: 'Courier New', Courier, monospace;
 }
 body {
-    background-image: url(/assets/products-bg.jpg);
+    background-image: url(/assets/background.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
@@ -30,7 +30,7 @@ body {
 footer {
   color: wheat;
   padding-left: 100px;
-  background-color: #283618;
+  background-color: black;
   height: 59px;
   padding: 20px;
 }
@@ -41,7 +41,7 @@ footer {
   padding-left: 540px;
   padding-top: 80px;
   border-radius: 500px;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 }
 
 
@@ -83,9 +83,24 @@ h2 {
   float: right;
   margin-right: 115px;
 }
+
+/* Product Page */
+
+.card{
+  flex-direction: unset;
+  background-color: beige;
+  width: 1082px;
+  justify-content: center;
+}
+
+#image {
+  min-height: fit-content;
+}
+
+
 /* Checkout Page */
 #checkoutbody {
-  background-image: url(/assets/products-bg.jpg);
+  background-image: url(/assets//background.jpg);
 }
 th {
   color: black;
