@@ -153,7 +153,7 @@ function displayBooks() {
                 </div>
                 <div class="modal-footer">
                   <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                  <button type="button" class="btn btn-primary" id="savebutton">Save changes</button>
+                  <button type="button" class="btn btn-dark" id="savebutton">Save changes</button>
                 </div>
               </div>
             </div>

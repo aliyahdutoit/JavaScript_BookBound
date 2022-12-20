@@ -157,12 +157,12 @@ x.forEach(aliyah => {
     console.log('Title: ' + aliyah.title)
     document.querySelector(".card").innerHTML += 
     `
-    <div class="card mb-3" style="max-width: 540px;">
-    <div class="row g-0">
-      <div class="col-md-4">
-        <img src="${aliyah.image}" class="img-fluid rounded-start" alt="..." id="image">
+    <div class="card mb-3">
+   
+      <div class="col-md">
+        <img src="${aliyah.image}" class="img-fluid rounded-start h-100" alt="..." id="image">
       </div>
-      <div class="col-md-8">
+      <div class="col-md">
         <div class="card-body">
           <h5 class="card-title">${aliyah.title}</h5>
           <p class="card-text"><small class="text-muted">${aliyah.genre}</small></p>
@@ -173,7 +173,7 @@ x.forEach(aliyah => {
          
         </div>
       </div>
-    </div>
+    
     </div>
             
     `
