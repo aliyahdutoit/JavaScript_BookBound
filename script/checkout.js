@@ -128,7 +128,7 @@ function displayBooks() {
           <td>${aliyah.genre}</td>
           <td>${aliyah.price}</td>
           <td><!-- Button trigger modal -->
-          <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
             add to checkout
           </button>
           
