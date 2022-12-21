@@ -129,7 +129,7 @@ function displayBooks() {
           <td>${aliyah.price}</td>
           <td><!-- Button trigger modal -->
           <button type="button" class="btn" id="addtocheckout" data-bs-toggle="modal" data-bs-target="#exampleModal">
-            purchase
+            Purchase
           </button>
           
           <!-- Modal -->
@@ -153,7 +153,7 @@ function displayBooks() {
                 </div>
                 <div class="modal-footer">
                   <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                  <button type="button" class="btn btn-dark" id="savebutton">Save changes</button>
+                  <button type="button" class="btn btn-dark" id="savebutton" onclick="purchase()">Save changes</button>
                 </div>
               </div>
             </div>
@@ -167,3 +167,7 @@ function displayBooks() {
   });
 } 
 displayBooks();
+
+function purchase() {
+  alert("Thank you for shopping at Book Bound! Enjoy your new adventures!!")
+}
