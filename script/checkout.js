@@ -129,7 +129,7 @@ function displayBooks() {
           <td>${aliyah.price}</td>
           <td><!-- Button trigger modal -->
           <button type="button" class="btn" id="addtocheckout" data-bs-toggle="modal" data-bs-target="#exampleModal">
-            add to checkout
+            purchase
           </button>
           
           <!-- Modal -->

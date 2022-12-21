@@ -38,6 +38,13 @@ footer {
   padding: 20px;
 }
 
+
+/* <---Media Queries--> */
+@media screen and (min-width:300px) {    
+  body {
+    width: 100%;
+  }
+}
 /* Home Page */
 
 .home {
@@ -139,3 +146,9 @@ tbody {
   float: right;
   padding-right: 70px;
 }
+/* ul {
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+
+} */
